@@ -10,7 +10,7 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 export_file_url = 'https://drive.google.com/uc?export=download&id=11vUHoc7mmWiQ7PqD2CE-lSjujx9nzcIo'
-export_file_name = 'export_combined.pkl'
+export_file_name = 'export.pkl'
 
 classes = ['Covid-19', 'No_Covid']
 path = Path(__file__).parent
