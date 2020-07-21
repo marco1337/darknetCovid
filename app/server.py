@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1Np8gEU69J_0xcDDdkpiVYXzMRgNXfsfR'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=11vUHoc7mmWiQ7PqD2CE-lSjujx9nzcIo'
+export_file_name = 'export_combined.pkl'
 
-classes = ['aji_de_gallina','arroz_con_pollo','pollo_a_la_brasa','anticucho','pachamanca']
+classes = ['Covid-19', 'No_Covid']
 path = Path(__file__).parent
 
 app = Starlette()
